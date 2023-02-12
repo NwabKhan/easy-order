@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
-function Contact() {
+function MyForm() {
   return (
     <Form style={{margin: 'auto' , width: '30rem', padding: '2rem'}}>
       <Row className="mb-3">
@@ -78,5 +78,5 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default MyForm;
 

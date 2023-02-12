@@ -17,8 +17,8 @@ import Button from '@mui/material/Button';
 import icon from './resources/icon.PNG'
 import { NavLink } from 'react-router-dom';
 
-const drawerWidth = 440;
-const navItems = ['Home', 'About', 'Contact', 'Services'];
+const drawerWidth = 500;
+const navItems = ['Home', 'About', 'Contact Us', 'Form', 'Services', 'Help'];
 
 function Navbar(props) {
   const { window } = props;
